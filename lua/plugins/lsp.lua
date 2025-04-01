@@ -12,6 +12,7 @@ return {
 				"tailwindcss-language-server",
 				"typescript-language-server",
 				"css-lsp",
+				"python-lsp-server",
 			})
 		end,
 	},
@@ -27,6 +28,7 @@ return {
 				prismals = {},
 				dockerls = {},
 				docker_compose_language_service = {},
+				pylsp = {},
 				tailwindcss = {
 					root_dir = function(...)
 						return require("lspconfig.util").root_pattern(".git")(...)
